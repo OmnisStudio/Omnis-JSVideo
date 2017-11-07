@@ -1,0 +1,14 @@
+;  Enter your initialization code here
+
+Do iVideoRow.$define(iVideo)
+
+Do iVideoList.$define(iVideoListCode)
+Do iVideoList.$add('qugQa_EZv4Y - English')
+Do iVideoList.$add('TYBhpsmz1CA - Deutsche')
+Do iVideoList.$add('ouP9qi5jRBg - Français')
+Do iVideoList.$add('Ln5IZroymPE - Italiano')
+Do iVideoList.$add('n0UXFDfDNhw - Español')
+Do iVideoList.$line.$assign(1)
+
+Calculate iVideoCode as iVideoList.iVideoListCode
+Do method showvideo

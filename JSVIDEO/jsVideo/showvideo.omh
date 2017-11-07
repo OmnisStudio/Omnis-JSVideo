@@ -1,0 +1,4 @@
+Calculate lVideoCode as mid(iVideoCode,1,11)
+
+Do iVideoRow.$assigncols(lVideoCode)
+Do $cinst.$objs.Video.$visible.$assign(kTrue)
